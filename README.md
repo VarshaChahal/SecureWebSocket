@@ -2,11 +2,11 @@
 <ul>
   <l1>Use 'wss' instead of 'ws'</l1>
   <li>Hard code the URL of the WebSockets endpoint</li>
-   <li> Do not allow user-controllable data into the WebSocket URL</li>
-   <li>Check origin against a whitelist: make sure the origin you are seeing is the one you expect</li>
-   <li>Use CSRF tokens(random tokens) for sensitive data/actions</li>
-   <li>Try to avoid session handling or access within the WebSocket protocol, handle it separately</li>
-   <li>Use rate limiting: keep track of clients' web sockets to avoid too many connection attempts by the client</li>
+  <li> Do not allow user-controllable data into the WebSocket URL</li>
+  <li>Check origin against a whitelist: make sure the origin you are seeing is the one you expect</li>
+  <li>Use CSRF tokens(random tokens) for sensitive data/actions</li>
+  <li>Try to avoid session handling or access within the WebSocket protocol, handle it separately</li>
+  <li>Use rate limiting: keep track of clients' web sockets to avoid too many connection attempts by the client</li>
 </ul>
 
 <h3>Detect or exploit WebSockets</h3>
