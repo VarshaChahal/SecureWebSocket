@@ -28,4 +28,5 @@
 </li>
   <li>An attacker can gain access to the sensitive data
 </li>
+<li>If the victim is an admin or a privileged user, the attacker can gain access over the entire web application </li>
 </ul>
