@@ -1,4 +1,4 @@
-<h2>Best Practices to secure WebSockets</h2>
+<h3>Best Practices to secure WebSockets</h3>
 <ul>
   <l1>Use 'wss' instead of 'ws'</l1>
   <li>Hard code the URL of the WebSockets endpoint</li>
@@ -29,4 +29,9 @@
   <li>An attacker can gain access to the sensitive data
 </li>
 <li>If the victim is an admin or a privileged user, the attacker can gain access over the entire web application </li>
+</ul>
+
+<h4>Notes:</h4>
+<ul>
+  <li>Browsers don't enforce SOP for websockets, hence the Origin header verification is necessary.</li>
 </ul>
