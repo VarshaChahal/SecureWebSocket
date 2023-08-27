@@ -1,3 +1,5 @@
+<h1>Securing WebSocket Communication </h1> 
+
 <h3>Best Practices to secure WebSockets</h3>
 <ul>
   <l1>Use 'wss' instead of 'ws'</l1>
